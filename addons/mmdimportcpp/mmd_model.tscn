@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bqj8mmdmodelcpp1"]
+
+[node name="MmdModel" type="MMDModel"]
+
+[node name="Skeleton3D" type="Skeleton3D" parent="."]
+
+[node name="ModelMorph" type="MeshInstance3D" parent="Skeleton3D"]
